@@ -1,0 +1,25 @@
+{
+    "name": "bytes/art",
+    "description": "A PHP artisan shortcut",
+    "authors": [
+        {
+          "name": "Your Name",
+          "email": "you@example.com"
+        }
+      ],
+      
+    "type": "library",
+    "require": {
+        "php":"^7.3 || ^8.0"
+    },
+    "license": "MIT",
+    "version": "1.0.0",
+    "bin": ["bin/script"],
+
+    "autoload": {
+      "psr-4": {
+        "YourNamespace\\": "src/"
+      }
+    }
+  }
+  

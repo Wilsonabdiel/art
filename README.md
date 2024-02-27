@@ -1,0 +1,2 @@
+# art
+PHP Artisan Shortcut
